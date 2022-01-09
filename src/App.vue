@@ -12,7 +12,7 @@
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>
-        <router-link class="white--text" to="/">Pokedex</router-link>
+        <router-link class="white--text" to="/">Laravel Route API project</router-link>
       </v-toolbar-title>
     </v-app-bar>
 
@@ -32,6 +32,10 @@ export default {
         {
           text: 'Home',
           link: '/',
+        },
+        {
+          text: 'Pokedex',
+          link: '/pokedex',
         },
       ],
     };
